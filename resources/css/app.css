@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.input-s01 {
+    @apply h-12 px-3 py-2 outline-none rounded-xl bg-slate-100 text-gray-800;
+}
+.btn-01 {
+    @apply bg-[#6178F1] text-gray-900 rounded-xl h-12 w-28 hover:bg-[#768af1] duration-150 delay-75;
+}
+.label-01 {
+    @apply text-sm ml-2;
+}
+.error-mesg {
+    @apply text-sm text-red-400 ml-2 mb-0;
+}
+.input-gp01 {
+    @apply flex flex-col mb-3;
+}
