@@ -1,7 +1,7 @@
 <template>
     <div class="relative w-screen h-screen text-white bg-[#212121]">
         <div class="absolute top-0 p-3 w-full flex justify-between">
-            <h2 class="text-3xl">LOGO</h2>
+            <SiteLogo/>
             <router-link to="/register" class="z-10">Register</router-link>
         </div>
         <div class="absolute top-0 w-full h-full flex justify-center items-center">
@@ -42,10 +42,12 @@
 <script>
 import axios from 'axios'
 import SubmitButton from './SubmitButton.vue';
+import SiteLogo from './SiteLogo.vue';
 
 export default {
     components: {
-        SubmitButton
+        SubmitButton,
+        SiteLogo
     },
     data() {
         return {

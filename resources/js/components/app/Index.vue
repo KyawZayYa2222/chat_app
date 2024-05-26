@@ -1,16 +1,23 @@
 <template>
-    <h1 class="text-black">main app layout</h1>
+    <div class="bg-[#212121]">
+        <Navbar/>
+    </div>
 </template>
 
 <script>
+import Navbar from './Navbar.vue';
+
 export default {
+    components: {
+        Navbar,
+    },
     data() {
         return {
 
         }
     },
     mounted() {
-        this.testListening()
+        // this.testListening()
     },
     methods: {
         testListening() {
