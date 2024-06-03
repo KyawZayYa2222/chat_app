@@ -1,7 +1,9 @@
 <template>
     <div class="sm:flex hidden items-center">
         <h2 class="text-[#FFFFFF] me-3">{{ user.name }}</h2>
-        <img src="/storage/characters/k.png" class="w-12 rounded-full" alt="">
+        <figure class="w-12 h-12 rounded-full overflow-hidden">
+            <img src="/storage/characters/k.png" alt="profile">
+        </figure>
     </div>
     <div class="sm:hidden block">
         <img src="/storage/icons/profile.svg" alt="profile">
@@ -11,7 +13,9 @@
         <div class="flex justify-center items-center bg-[#6178F1] rounded-t-lg">
             <h3 class="sm:block hidden my-3">Account</h3>
             <div class="sm:hidden flex flex-col items-center m-2">
-                <img src="/storage/characters/k.png" alt="profile" class="w-14 rounded-full">
+                <figure class="w-14 h-14 rounded-full overflow-hidden">
+                    <img src="/storage/characters/k.png" alt="profile">
+                </figure>
                 <h3 class="text-xl">{{ user.name }}</h3>
                 <h5 class="text-sm">{{ user.email }}</h5>
             </div>
