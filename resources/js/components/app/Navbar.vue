@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import SiteLogo from '../SiteLogo.vue';
+import SiteLogo from '../common/SiteLogo.vue';
 import NavProfile from './NavProfile.vue';
 import Notification from './Notification.vue';
 

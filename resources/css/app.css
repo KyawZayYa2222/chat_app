@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
 
 .input-s01 {
     @apply h-12 px-3 py-2 outline-none rounded-xl bg-slate-100 text-gray-800;
@@ -27,4 +37,14 @@
   font-style: normal;
   font-variation-settings:
     "slnt" 0;
+}
+.menu-enter-active {
+    transition: all 0.2s ease-out;
+}
+.menu-leave-active {
+    transition: all 0.2s ease-in;
+}
+.menu-enter-from,
+.menu-leave-to {
+    opacity: 0;
 }

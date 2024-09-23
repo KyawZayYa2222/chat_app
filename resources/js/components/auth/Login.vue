@@ -41,8 +41,8 @@
 
 <script>
 import axios from 'axios'
-import SubmitButton from './SubmitButton.vue';
-import SiteLogo from './SiteLogo.vue';
+import SubmitButton from '../common/SubmitButton.vue';
+import SiteLogo from '../common/SiteLogo.vue';
 
 export default {
     components: {

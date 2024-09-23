@@ -1,10 +1,11 @@
 <template>
     <div class="h-screen flex flex-col">
-        <div class="bg-[#212121]">
+        <!-- <div class="bg-[#212121]">
             <Navbar/>
-        </div>
+        </div> -->
         <div class="h-full flex">
-            <ConversationHistroy/>
+            <!-- <ConversationHistroy class="h-full absolute md:relative md:right-auto right-full"/> -->
+            <ConversationHistroy class="h-full z-20 absolute lg:relative lg:translate-x-0 -translate-x-full duration-200"/>
             <Conversation/>
         </div>
     </div>
